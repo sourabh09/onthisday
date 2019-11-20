@@ -5,10 +5,10 @@
 }
 
 body{
-	/*background-color: #FFF;*/
-  background-image: url(bg1.jpg);
+	background-color: #FFF;
+/*  background-image: url(bg1.jpg);
   background-size: contain;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
 #fixed{
   position: fixed;
@@ -19,14 +19,14 @@ body{
   font-family: 'Montserrat' !important;
   border-radius: 50px;
   height: 20px;
-  background-color:#333D94;
+  background-color:#FFF;
   padding: 7px; 
   font-size: 16px;
   display: none;
 }
 
 .mdl-button{
-  background-color:#333D94 !important;
+  background-color: #FFF;
   color: #fff!important; 
 }
 
@@ -37,7 +37,7 @@ body{
 header{
 background-color:rgba(0,0,0,0.0);
 font-size:2em;
-color: #FFF;
+color: #fff;
 padding:15px;
 text-align: left;
 font-family: 'Montserrat';
@@ -64,7 +64,7 @@ font-weight: bold;
   margin: 1rem;
   border-radius: 8px;
   /*background-image: linear-gradient(-45deg, #000,#0079BE); */
-  background-color: #EDEDED;
+  background-color: #E3E3E3;
  /* box-shadow: 0 12px 35px 0 rgba(0, 0, 0, 0.2), 0 16px 18px 0 rgba(0, 0, 0, 0.19);*/
   width: 100%;
   max-width: 600px;
@@ -90,3 +90,4 @@ h5{
 p{
   font-size:16px;
 }
+
