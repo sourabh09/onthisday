@@ -14,7 +14,7 @@
 
     var request = new XMLHttpRequest()
 
-    request.open('GET', 'http://www.colr.org/json/scheme/random', true);
+    request.open('GET', 'https://www.colr.org/json/scheme/random', true);
     XMLHttpRequest.responseType = 'json';
     request.onload = function() {
     // Begin accessing JSON data here
