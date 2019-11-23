@@ -14,37 +14,6 @@
 
     var request = new XMLHttpRequest()
 
-    request.open('GET', 'https://www.colr.org/json/scheme/random', true);
-    XMLHttpRequest.responseType = 'json';
-    request.onload = function() {
-    // Begin accessing JSON data here
-    var colordata = JSON.parse(this.response)
-
-    console.log(colordata);
-
-    var color = colordata.schemes["0"].colors["0"];
-
-    $('header').css("color","#"+color);
-    $('#fixed').css("background-color","#"+color);
-    $('.mdl-button').css("background","#"+color);
-
-    console.log(color);
-
-  if (request.status >= 200 && request.status < 400) {
-   
-
-
-  } else {
-    console.log('error in color API')
-  }
-
-}
-
-request.send()
-
-
-    var request = new XMLHttpRequest()
-
     request.open('GET', 'https://byabbe.se/on-this-day/'+month+'/'+day+'/events.json', true);
     request.onload = function() {
     // Begin accessing JSON data here
@@ -109,10 +78,3 @@ $(document).ready(function () {
 
 
 })
-
-function datepicker(){
-  datepickerDefault = new MtrDatepicker({
-  target: "demo",
-});
-
-}
