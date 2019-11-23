@@ -26,7 +26,7 @@ body{
 }
 
 .mdl-button{
-  background-color: #EB1537;
+  background-color: #EB1537 !important;
   color: #fff!important; 
 }
 
